@@ -4,7 +4,7 @@ Xcode 的 Code Snippets 文件存放于 `~/Library/Developer/Xcode/UserData/Code
 
 ```bash
 cd ~/Library/Developer/Xcode/UserData/CodeSnippets
-git clone https://github.com/QMUI/QMUI_iOS_CodeSnippets.git ./
+git clone https://github.com/jokan163/codeSnippets.git ./
 ```
 
 其中通用的 Code Snippets;
