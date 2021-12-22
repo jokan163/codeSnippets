@@ -1,3 +1,24 @@
+```
+PATH="${HOME}/.bin:${PATH}"
+export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
+source ~/.bash_profile PATH="/opt/homebrew/opt/ruby/bin:$PATH"
+[ -f /opt/homebrew/etc/profile.d/autojump.sh ] && . /opt/homebrew/etc/profile.d/autojump.sh
+
+alias r='repo forall -c '
+alias rg='repo forall -c git '
+alias rs='repo status'
+alias rga='repo forall -c git add .'
+alias rgco='repo forall -c git checkout '
+alias rgcb='repo forall -c git checkout -b '
+alias rgc='repo forall -c git commit '
+alias rgf='repo forall -c git fetch '
+alias rgpl='repo forall -c git pull '
+alias rgpu='repo forall -c git push '
+alias rgs='repo forall -c git status '
+alias rgl='repo forall -c git log '
+alias rgcf='repo forall -c git checkout -f && git clean -df'
+```
+
 
 ## 使用方式
 Xcode 的 Code Snippets 文件存放于 `~/Library/Developer/Xcode/UserData/CodeSnippets` 目录，只要直接把 `*.codesnippets` 文件放到这个目录下（若没有则自己创建），重启 Xcode 即可生效。
